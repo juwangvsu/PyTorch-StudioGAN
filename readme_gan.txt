@@ -13,6 +13,8 @@ cifar10:
 -------- view result via wandb-------------------------
 https://wandb.ai/vsurobotics/PyTorch-StudioGAN-src/runs/jbmpwrqv?nw=nwuserjwang3
 
+https://wandb.ai/vsurobotics/PyTorch-StudioGAN-src/runs/jbmpwrqv/overview
+
 ----------------data prep ----------------------------
 download scripts (link in README), mkdir data, cd data, run the wget line to download data zip, 
 	run the scripts to setup data fold structure.
