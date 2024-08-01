@@ -5,6 +5,10 @@ batchsize: 256
 
 RuntimeError: CUDA error: device-side assert triggered
 	???
+cifar10:
+
+/home/ju.wang@rdte.nswc.navy.mil/Documents/PyTorch-StudioGAN/src/main.py -t -hdf5 -l -std_stat -metrics is fid prdc -ref train -cfg src/configs/CIFAR10/DCGAN.yaml -data ./data -save outputs -mpc --post_resizer friendly --eval_backbone InceptionV3_tf
+
 
 -------- view result via wandb-------------------------
 https://wandb.ai/vsurobotics/PyTorch-StudioGAN-src/runs/jbmpwrqv?nw=nwuserjwang3
