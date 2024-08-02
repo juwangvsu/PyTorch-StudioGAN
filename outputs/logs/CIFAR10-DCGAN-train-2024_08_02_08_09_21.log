@@ -387,3 +387,597 @@
 [INFO] 2024-08-02 08:23:10 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_6000.png
 [INFO] 2024-08-02 08:23:10 > Start Evaluation (6000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
 [INFO] 2024-08-02 08:23:10 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:24:18 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:24:18 > Inception score (Step: 6000, 50000 generated images): 5.173292636871338
+[INFO] 2024-08-02 08:24:21 > FID score (Step: 6000, Using train moments): 77.30826562334283
+[INFO] 2024-08-02 08:24:21 > Best FID score (Step: 4000, Using train moments): 66.72761398770803
+[INFO] 2024-08-02 08:26:31 > Improved Precision (Step: 6000, Using train images): 0.5128
+[INFO] 2024-08-02 08:26:31 > Improved Recall (Step: 6000, Using train images): 0.1949
+[INFO] 2024-08-02 08:26:31 > Density (Step: 6000, Using train images): 0.355428
+[INFO] 2024-08-02 08:26:31 > Coverage (Step: 6000, Using train images): 0.14284
+[INFO] 2024-08-02 08:26:32 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:26:34 > Step:   6100 Progress: 3.0% Elapsed: 0:12:26 Gen_loss: 2.144 Dis_loss: 0.01754 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:36 > Step:   6200 Progress: 3.1% Elapsed: 0:12:28 Gen_loss: 10.28 Dis_loss: 0.8454 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:38 > Step:   6300 Progress: 3.1% Elapsed: 0:12:30 Gen_loss: 5.265 Dis_loss: 0.08934 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:41 > Step:   6400 Progress: 3.2% Elapsed: 0:12:32 Gen_loss: 6.551 Dis_loss: 0.01631 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:43 > Step:   6500 Progress: 3.2% Elapsed: 0:12:35 Gen_loss: 4.454 Dis_loss: 0.1611 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:45 > Step:   6600 Progress: 3.3% Elapsed: 0:12:37 Gen_loss: 6.986 Dis_loss: 0.02368 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:47 > Step:   6700 Progress: 3.4% Elapsed: 0:12:39 Gen_loss: 3.152 Dis_loss: 0.01043 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:50 > Step:   6800 Progress: 3.4% Elapsed: 0:12:42 Gen_loss: 6.85 Dis_loss: 0.1976 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:52 > Step:   6900 Progress: 3.5% Elapsed: 0:12:44 Gen_loss: 6.099 Dis_loss: 0.02848 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:54 > Step:   7000 Progress: 3.5% Elapsed: 0:12:46 Gen_loss: 4.968 Dis_loss: 0.00302 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:57 > Step:   7100 Progress: 3.5% Elapsed: 0:12:48 Gen_loss: 4.501 Dis_loss: 0.02876 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:26:59 > Step:   7200 Progress: 3.6% Elapsed: 0:12:51 Gen_loss: 10.54 Dis_loss: 0.02321 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:01 > Step:   7300 Progress: 3.6% Elapsed: 0:12:53 Gen_loss: 1.997 Dis_loss: 0.02542 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:04 > Step:   7400 Progress: 3.7% Elapsed: 0:12:55 Gen_loss: 4.778 Dis_loss: 0.01395 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:06 > Step:   7500 Progress: 3.8% Elapsed: 0:12:58 Gen_loss: 6.119 Dis_loss: 0.002389 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:08 > Step:   7600 Progress: 3.8% Elapsed: 0:13:00 Gen_loss: 6.181 Dis_loss: 0.1091 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:10 > Step:   7700 Progress: 3.9% Elapsed: 0:13:02 Gen_loss: 9.729 Dis_loss: 0.8838 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:13 > Step:   7800 Progress: 3.9% Elapsed: 0:13:05 Gen_loss: 14.27 Dis_loss: 0.06846 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:15 > Step:   7900 Progress: 4.0% Elapsed: 0:13:07 Gen_loss: 14.35 Dis_loss: 0.009263 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:17 > Step:   8000 Progress: 4.0% Elapsed: 0:13:09 Gen_loss: 4.128 Dis_loss: 0.015 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:27:17 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:27:17 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_8000.png
+[INFO] 2024-08-02 08:27:17 > Start Evaluation (8000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:27:17 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:28:25 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:28:25 > Inception score (Step: 8000, 50000 generated images): 5.446333885192871
+[INFO] 2024-08-02 08:28:27 > FID score (Step: 8000, Using train moments): 60.53024557979006
+[INFO] 2024-08-02 08:28:27 > Best FID score (Step: 8000, Using train moments): 60.53024557979006
+[INFO] 2024-08-02 08:30:37 > Improved Precision (Step: 8000, Using train images): 0.58052
+[INFO] 2024-08-02 08:30:37 > Improved Recall (Step: 8000, Using train images): 0.23794
+[INFO] 2024-08-02 08:30:37 > Density (Step: 8000, Using train images): 0.438936
+[INFO] 2024-08-02 08:30:37 > Coverage (Step: 8000, Using train images): 0.20704
+[INFO] 2024-08-02 08:30:37 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:30:40 > Step:   8100 Progress: 4.0% Elapsed: 0:16:32 Gen_loss: 7.455 Dis_loss: 0.5296 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:42 > Step:   8200 Progress: 4.1% Elapsed: 0:16:34 Gen_loss: 10.68 Dis_loss: 0.252 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:44 > Step:   8300 Progress: 4.2% Elapsed: 0:16:36 Gen_loss: 4.969 Dis_loss: 0.142 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:47 > Step:   8400 Progress: 4.2% Elapsed: 0:16:38 Gen_loss: 9.251 Dis_loss: 0.2246 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:49 > Step:   8500 Progress: 4.2% Elapsed: 0:16:41 Gen_loss: 6.903 Dis_loss: 0.01754 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:51 > Step:   8600 Progress: 4.3% Elapsed: 0:16:43 Gen_loss: 5.705 Dis_loss: 0.03812 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:53 > Step:   8700 Progress: 4.3% Elapsed: 0:16:45 Gen_loss: 10.91 Dis_loss: 0.01372 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:56 > Step:   8800 Progress: 4.4% Elapsed: 0:16:48 Gen_loss: 10.72 Dis_loss: 0.5709 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:30:58 > Step:   8900 Progress: 4.5% Elapsed: 0:16:50 Gen_loss: 14.73 Dis_loss: 0.07622 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:00 > Step:   9000 Progress: 4.5% Elapsed: 0:16:52 Gen_loss: 4.924 Dis_loss: 0.01052 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:03 > Step:   9100 Progress: 4.5% Elapsed: 0:16:54 Gen_loss: 3.019 Dis_loss: 0.2885 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:05 > Step:   9200 Progress: 4.6% Elapsed: 0:16:57 Gen_loss: 5.792 Dis_loss: 0.07751 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:07 > Step:   9300 Progress: 4.7% Elapsed: 0:16:59 Gen_loss: 6.429 Dis_loss: 0.06704 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:09 > Step:   9400 Progress: 4.7% Elapsed: 0:17:01 Gen_loss: 5.567 Dis_loss: 0.006328 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:12 > Step:   9500 Progress: 4.8% Elapsed: 0:17:04 Gen_loss: 13.28 Dis_loss: 0.02453 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:14 > Step:   9600 Progress: 4.8% Elapsed: 0:17:06 Gen_loss: 4.959 Dis_loss: 0.007375 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:16 > Step:   9700 Progress: 4.9% Elapsed: 0:17:08 Gen_loss: 6.516 Dis_loss: 0.001713 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:19 > Step:   9800 Progress: 4.9% Elapsed: 0:17:10 Gen_loss: 7.209 Dis_loss: 0.00483 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:21 > Step:   9900 Progress: 5.0% Elapsed: 0:17:13 Gen_loss: 3.456 Dis_loss: 0.02594 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:23 > Step:  10000 Progress: 5.0% Elapsed: 0:17:15 Gen_loss: 8.544 Dis_loss: 0.1754 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:31:23 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:31:23 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_10000.png
+[INFO] 2024-08-02 08:31:23 > Start Evaluation (10000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:31:23 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:32:31 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:32:31 > Inception score (Step: 10000, 50000 generated images): 6.222517967224121
+[INFO] 2024-08-02 08:32:33 > FID score (Step: 10000, Using train moments): 50.03556130479228
+[INFO] 2024-08-02 08:32:33 > Best FID score (Step: 10000, Using train moments): 50.03556130479228
+[INFO] 2024-08-02 08:34:43 > Improved Precision (Step: 10000, Using train images): 0.58478
+[INFO] 2024-08-02 08:34:43 > Improved Recall (Step: 10000, Using train images): 0.28976
+[INFO] 2024-08-02 08:34:43 > Density (Step: 10000, Using train images): 0.447028
+[INFO] 2024-08-02 08:34:43 > Coverage (Step: 10000, Using train images): 0.2575
+[INFO] 2024-08-02 08:34:43 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:34:45 > Step:  10100 Progress: 5.1% Elapsed: 0:20:37 Gen_loss: 4.586 Dis_loss: 0.006541 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:34:48 > Step:  10200 Progress: 5.1% Elapsed: 0:20:39 Gen_loss: 6.934 Dis_loss: 0.02572 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:34:50 > Step:  10300 Progress: 5.1% Elapsed: 0:20:42 Gen_loss: 7.059 Dis_loss: 0.02249 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:34:52 > Step:  10400 Progress: 5.2% Elapsed: 0:20:44 Gen_loss: 5.18 Dis_loss: 0.007464 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:34:54 > Step:  10500 Progress: 5.2% Elapsed: 0:20:46 Gen_loss: 5.825 Dis_loss: 0.02721 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:34:57 > Step:  10600 Progress: 5.3% Elapsed: 0:20:49 Gen_loss: 4.388 Dis_loss: 0.02499 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:34:59 > Step:  10700 Progress: 5.3% Elapsed: 0:20:51 Gen_loss: 8.554 Dis_loss: 0.01814 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:01 > Step:  10800 Progress: 5.4% Elapsed: 0:20:53 Gen_loss: 9.648 Dis_loss: 0.004241 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:04 > Step:  10900 Progress: 5.5% Elapsed: 0:20:56 Gen_loss: 9.663 Dis_loss: 0.01694 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:06 > Step:  11000 Progress: 5.5% Elapsed: 0:20:58 Gen_loss: 5.564 Dis_loss: 0.04385 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:08 > Step:  11100 Progress: 5.5% Elapsed: 0:21:00 Gen_loss: 4.139 Dis_loss: 0.01201 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:11 > Step:  11200 Progress: 5.6% Elapsed: 0:21:03 Gen_loss: 4.502 Dis_loss: 0.154 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:13 > Step:  11300 Progress: 5.7% Elapsed: 0:21:05 Gen_loss: 9.284 Dis_loss: 0.008187 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:15 > Step:  11400 Progress: 5.7% Elapsed: 0:21:07 Gen_loss: 7.141 Dis_loss: 0.004671 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:18 > Step:  11500 Progress: 5.8% Elapsed: 0:21:10 Gen_loss: 5.945 Dis_loss: 0.007373 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:20 > Step:  11600 Progress: 5.8% Elapsed: 0:21:12 Gen_loss: 5.084 Dis_loss: 0.2109 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:23 > Step:  11700 Progress: 5.9% Elapsed: 0:21:15 Gen_loss: 5.167 Dis_loss: 0.008792 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:25 > Step:  11800 Progress: 5.9% Elapsed: 0:21:17 Gen_loss: 6.299 Dis_loss: 0.001683 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:28 > Step:  11900 Progress: 5.9% Elapsed: 0:21:19 Gen_loss: 4.194 Dis_loss: 0.009739 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:30 > Step:  12000 Progress: 6.0% Elapsed: 0:21:22 Gen_loss: 8.69 Dis_loss: 0.002465 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:35:30 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:35:30 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_12000.png
+[INFO] 2024-08-02 08:35:30 > Start Evaluation (12000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:35:30 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:36:31 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:36:31 > Inception score (Step: 12000, 50000 generated images): 6.094759941101074
+[INFO] 2024-08-02 08:36:33 > FID score (Step: 12000, Using train moments): 55.08539923212999
+[INFO] 2024-08-02 08:36:33 > Best FID score (Step: 10000, Using train moments): 50.03556130479228
+[INFO] 2024-08-02 08:38:44 > Improved Precision (Step: 12000, Using train images): 0.60008
+[INFO] 2024-08-02 08:38:44 > Improved Recall (Step: 12000, Using train images): 0.28356
+[INFO] 2024-08-02 08:38:44 > Density (Step: 12000, Using train images): 0.4745440000000001
+[INFO] 2024-08-02 08:38:44 > Coverage (Step: 12000, Using train images): 0.26106
+[INFO] 2024-08-02 08:38:44 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:38:47 > Step:  12100 Progress: 6.0% Elapsed: 0:24:38 Gen_loss: 6.704 Dis_loss: 0.1492 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:38:49 > Step:  12200 Progress: 6.1% Elapsed: 0:24:41 Gen_loss: 4.737 Dis_loss: 0.01012 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:38:51 > Step:  12300 Progress: 6.2% Elapsed: 0:24:43 Gen_loss: 8.932 Dis_loss: 0.6715 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:38:54 > Step:  12400 Progress: 6.2% Elapsed: 0:24:46 Gen_loss: 4.782 Dis_loss: 0.1492 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:38:56 > Step:  12500 Progress: 6.2% Elapsed: 0:24:48 Gen_loss: 6.946 Dis_loss: 0.01938 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:38:59 > Step:  12600 Progress: 6.3% Elapsed: 0:24:50 Gen_loss: 6.256 Dis_loss: 0.004172 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:01 > Step:  12700 Progress: 6.3% Elapsed: 0:24:53 Gen_loss: 8.503 Dis_loss: 0.002022 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:03 > Step:  12800 Progress: 6.4% Elapsed: 0:24:55 Gen_loss: 5.244 Dis_loss: 0.002989 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:06 > Step:  12900 Progress: 6.5% Elapsed: 0:24:58 Gen_loss: 5.349 Dis_loss: 0.04806 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:08 > Step:  13000 Progress: 6.5% Elapsed: 0:25:00 Gen_loss: 6.368 Dis_loss: 0.1364 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:11 > Step:  13100 Progress: 6.6% Elapsed: 0:25:03 Gen_loss: 8.208 Dis_loss: 0.005679 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:13 > Step:  13200 Progress: 6.6% Elapsed: 0:25:05 Gen_loss: 7.433 Dis_loss: 0.008482 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:16 > Step:  13300 Progress: 6.7% Elapsed: 0:25:07 Gen_loss: 9.786 Dis_loss: 0.1073 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:18 > Step:  13400 Progress: 6.7% Elapsed: 0:25:10 Gen_loss: 4.731 Dis_loss: 0.08041 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:20 > Step:  13500 Progress: 6.8% Elapsed: 0:25:12 Gen_loss: 2.834 Dis_loss: 0.002501 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:23 > Step:  13600 Progress: 6.8% Elapsed: 0:25:15 Gen_loss: 10.18 Dis_loss: 0.003527 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:25 > Step:  13700 Progress: 6.9% Elapsed: 0:25:17 Gen_loss: 11.04 Dis_loss: 0.01182 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:28 > Step:  13800 Progress: 6.9% Elapsed: 0:25:19 Gen_loss: 9.811 Dis_loss: 0.0006258 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:30 > Step:  13900 Progress: 7.0% Elapsed: 0:25:22 Gen_loss: 11.73 Dis_loss: 0.001431 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:32 > Step:  14000 Progress: 7.0% Elapsed: 0:25:24 Gen_loss: 8.345 Dis_loss: 0.0005717 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:39:32 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:39:32 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_14000.png
+[INFO] 2024-08-02 08:39:32 > Start Evaluation (14000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:39:32 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:40:34 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:40:34 > Inception score (Step: 14000, 50000 generated images): 5.691219806671143
+[INFO] 2024-08-02 08:40:36 > FID score (Step: 14000, Using train moments): 58.0738932820679
+[INFO] 2024-08-02 08:40:36 > Best FID score (Step: 10000, Using train moments): 50.03556130479228
+[INFO] 2024-08-02 08:42:44 > Improved Precision (Step: 14000, Using train images): 0.56186
+[INFO] 2024-08-02 08:42:44 > Improved Recall (Step: 14000, Using train images): 0.24358
+[INFO] 2024-08-02 08:42:44 > Density (Step: 14000, Using train images): 0.478704
+[INFO] 2024-08-02 08:42:44 > Coverage (Step: 14000, Using train images): 0.25208
+[INFO] 2024-08-02 08:42:44 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:42:47 > Step:  14100 Progress: 7.0% Elapsed: 0:28:39 Gen_loss: 5.191 Dis_loss: 0.07365 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:42:49 > Step:  14200 Progress: 7.1% Elapsed: 0:28:41 Gen_loss: 8.152 Dis_loss: 0.01979 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:42:51 > Step:  14300 Progress: 7.1% Elapsed: 0:28:43 Gen_loss: 5.835 Dis_loss: 0.0414 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:42:54 > Step:  14400 Progress: 7.2% Elapsed: 0:28:46 Gen_loss: 4.56 Dis_loss: 0.02267 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:42:56 > Step:  14500 Progress: 7.2% Elapsed: 0:28:48 Gen_loss: 4.012 Dis_loss: 0.01918 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:42:59 > Step:  14600 Progress: 7.3% Elapsed: 0:28:51 Gen_loss: 8.48 Dis_loss: 0.003961 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:01 > Step:  14700 Progress: 7.3% Elapsed: 0:28:53 Gen_loss: 6.339 Dis_loss: 0.2079 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:04 > Step:  14800 Progress: 7.4% Elapsed: 0:28:55 Gen_loss: 5.441 Dis_loss: 0.01967 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:06 > Step:  14900 Progress: 7.4% Elapsed: 0:28:58 Gen_loss: 6.737 Dis_loss: 0.000595 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:08 > Step:  15000 Progress: 7.5% Elapsed: 0:29:00 Gen_loss: 8.828 Dis_loss: 0.00209 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:11 > Step:  15100 Progress: 7.5% Elapsed: 0:29:03 Gen_loss: 6.705 Dis_loss: 0.01652 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:13 > Step:  15200 Progress: 7.6% Elapsed: 0:29:05 Gen_loss: 6.895 Dis_loss: 0.00187 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:16 > Step:  15300 Progress: 7.6% Elapsed: 0:29:07 Gen_loss: 4.937 Dis_loss: 0.002754 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:18 > Step:  15400 Progress: 7.7% Elapsed: 0:29:10 Gen_loss: 5.352 Dis_loss: 0.004862 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:20 > Step:  15500 Progress: 7.8% Elapsed: 0:29:12 Gen_loss: 7.463 Dis_loss: 0.01597 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:23 > Step:  15600 Progress: 7.8% Elapsed: 0:29:15 Gen_loss: 7.24 Dis_loss: 0.01478 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:25 > Step:  15700 Progress: 7.8% Elapsed: 0:29:17 Gen_loss: 6.489 Dis_loss: 0.0008968 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:28 > Step:  15800 Progress: 7.9% Elapsed: 0:29:20 Gen_loss: 4.707 Dis_loss: 0.009019 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:30 > Step:  15900 Progress: 8.0% Elapsed: 0:29:22 Gen_loss: 7.558 Dis_loss: 0.0185 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:33 > Step:  16000 Progress: 8.0% Elapsed: 0:29:24 Gen_loss: 5.687 Dis_loss: 0.0204 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:43:33 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:43:33 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_16000.png
+[INFO] 2024-08-02 08:43:33 > Start Evaluation (16000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:43:33 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:44:34 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:44:34 > Inception score (Step: 16000, 50000 generated images): 5.4872660636901855
+[INFO] 2024-08-02 08:44:36 > FID score (Step: 16000, Using train moments): 58.77295140758412
+[INFO] 2024-08-02 08:44:36 > Best FID score (Step: 10000, Using train moments): 50.03556130479228
+[INFO] 2024-08-02 08:46:46 > Improved Precision (Step: 16000, Using train images): 0.54768
+[INFO] 2024-08-02 08:46:46 > Improved Recall (Step: 16000, Using train images): 0.2691
+[INFO] 2024-08-02 08:46:46 > Density (Step: 16000, Using train images): 0.416404
+[INFO] 2024-08-02 08:46:46 > Coverage (Step: 16000, Using train images): 0.22528
+[INFO] 2024-08-02 08:46:46 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:46:48 > Step:  16100 Progress: 8.1% Elapsed: 0:32:40 Gen_loss: 6.197 Dis_loss: 0.001516 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:46:51 > Step:  16200 Progress: 8.1% Elapsed: 0:32:42 Gen_loss: 10.82 Dis_loss: 0.05449 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:46:53 > Step:  16300 Progress: 8.2% Elapsed: 0:32:45 Gen_loss: 7.372 Dis_loss: 0.1185 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:46:55 > Step:  16400 Progress: 8.2% Elapsed: 0:32:47 Gen_loss: 4.798 Dis_loss: 0.02819 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:46:58 > Step:  16500 Progress: 8.2% Elapsed: 0:32:50 Gen_loss: 8.424 Dis_loss: 0.005028 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:00 > Step:  16600 Progress: 8.3% Elapsed: 0:32:52 Gen_loss: 6.889 Dis_loss: 0.002348 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:03 > Step:  16700 Progress: 8.3% Elapsed: 0:32:54 Gen_loss: 8.017 Dis_loss: 0.01791 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:05 > Step:  16800 Progress: 8.4% Elapsed: 0:32:57 Gen_loss: 5.542 Dis_loss: 0.0137 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:07 > Step:  16900 Progress: 8.5% Elapsed: 0:32:59 Gen_loss: 6.631 Dis_loss: 0.01033 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:10 > Step:  17000 Progress: 8.5% Elapsed: 0:33:02 Gen_loss: 10.59 Dis_loss: 0.002656 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:12 > Step:  17100 Progress: 8.6% Elapsed: 0:33:04 Gen_loss: 1.807 Dis_loss: 0.1569 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:15 > Step:  17200 Progress: 8.6% Elapsed: 0:33:07 Gen_loss: 4.396 Dis_loss: 0.01061 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:17 > Step:  17300 Progress: 8.6% Elapsed: 0:33:09 Gen_loss: 5.131 Dis_loss: 0.01776 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:19 > Step:  17400 Progress: 8.7% Elapsed: 0:33:11 Gen_loss: 7.89 Dis_loss: 0.003598 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:22 > Step:  17500 Progress: 8.8% Elapsed: 0:33:14 Gen_loss: 8.776 Dis_loss: 0.004071 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:24 > Step:  17600 Progress: 8.8% Elapsed: 0:33:16 Gen_loss: 6.053 Dis_loss: 0.007623 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:27 > Step:  17700 Progress: 8.8% Elapsed: 0:33:19 Gen_loss: 8.529 Dis_loss: 0.004534 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:29 > Step:  17800 Progress: 8.9% Elapsed: 0:33:21 Gen_loss: 13.99 Dis_loss: 0.144 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:32 > Step:  17900 Progress: 8.9% Elapsed: 0:33:23 Gen_loss: 8.25 Dis_loss: 0.001483 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:34 > Step:  18000 Progress: 9.0% Elapsed: 0:33:26 Gen_loss: 4.754 Dis_loss: 0.3299 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:47:34 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:47:34 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_18000.png
+[INFO] 2024-08-02 08:47:34 > Start Evaluation (18000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:47:34 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:48:35 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:48:35 > Inception score (Step: 18000, 50000 generated images): 5.285576820373535
+[INFO] 2024-08-02 08:48:37 > FID score (Step: 18000, Using train moments): 59.78898738023071
+[INFO] 2024-08-02 08:48:37 > Best FID score (Step: 10000, Using train moments): 50.03556130479228
+[INFO] 2024-08-02 08:50:46 > Improved Precision (Step: 18000, Using train images): 0.65756
+[INFO] 2024-08-02 08:50:46 > Improved Recall (Step: 18000, Using train images): 0.20622
+[INFO] 2024-08-02 08:50:46 > Density (Step: 18000, Using train images): 0.544356
+[INFO] 2024-08-02 08:50:46 > Coverage (Step: 18000, Using train images): 0.25264
+[INFO] 2024-08-02 08:50:46 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:50:49 > Step:  18100 Progress: 9.0% Elapsed: 0:36:40 Gen_loss: 9.548 Dis_loss: 0.002159 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:50:51 > Step:  18200 Progress: 9.1% Elapsed: 0:36:43 Gen_loss: 5.436 Dis_loss: 0.05057 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:50:53 > Step:  18300 Progress: 9.2% Elapsed: 0:36:45 Gen_loss: 4.881 Dis_loss: 0.002436 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:50:55 > Step:  18400 Progress: 9.2% Elapsed: 0:36:47 Gen_loss: 9.376 Dis_loss: 0.2217 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:50:58 > Step:  18500 Progress: 9.2% Elapsed: 0:36:50 Gen_loss: 9.26 Dis_loss: 0.0004043 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:00 > Step:  18600 Progress: 9.3% Elapsed: 0:36:52 Gen_loss: 6.819 Dis_loss: 0.008161 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:02 > Step:  18700 Progress: 9.3% Elapsed: 0:36:54 Gen_loss: 18.08 Dis_loss: 0.003281 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:05 > Step:  18800 Progress: 9.4% Elapsed: 0:36:56 Gen_loss: 7.14 Dis_loss: 0.02601 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:07 > Step:  18900 Progress: 9.4% Elapsed: 0:36:59 Gen_loss: 6.738 Dis_loss: 0.0008497 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:09 > Step:  19000 Progress: 9.5% Elapsed: 0:37:01 Gen_loss: 4.592 Dis_loss: 0.01011 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:11 > Step:  19100 Progress: 9.6% Elapsed: 0:37:03 Gen_loss: 5.78 Dis_loss: 0.01041 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:14 > Step:  19200 Progress: 9.6% Elapsed: 0:37:06 Gen_loss: 17.25 Dis_loss: 4.64 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:16 > Step:  19300 Progress: 9.7% Elapsed: 0:37:08 Gen_loss: 7.36 Dis_loss: 0.03577 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:18 > Step:  19400 Progress: 9.7% Elapsed: 0:37:10 Gen_loss: 6.151 Dis_loss: 0.002805 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:21 > Step:  19500 Progress: 9.8% Elapsed: 0:37:12 Gen_loss: 2.446 Dis_loss: 0.01285 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:23 > Step:  19600 Progress: 9.8% Elapsed: 0:37:15 Gen_loss: 2.3 Dis_loss: 0.8563 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:25 > Step:  19700 Progress: 9.8% Elapsed: 0:37:17 Gen_loss: 11.03 Dis_loss: 0.118 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:28 > Step:  19800 Progress: 9.9% Elapsed: 0:37:19 Gen_loss: 6.739 Dis_loss: 0.007335 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:30 > Step:  19900 Progress: 10.0% Elapsed: 0:37:22 Gen_loss: 5.065 Dis_loss: 0.01047 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:32 > Step:  20000 Progress: 10.0% Elapsed: 0:37:24 Gen_loss: 9.54 Dis_loss: 0.2169 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:51:32 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:51:32 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_20000.png
+[INFO] 2024-08-02 08:51:32 > Start Evaluation (20000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:51:32 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:52:34 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:52:34 > Inception score (Step: 20000, 50000 generated images): 5.943180084228516
+[INFO] 2024-08-02 08:52:36 > FID score (Step: 20000, Using train moments): 44.796515636484855
+[INFO] 2024-08-02 08:52:36 > Best FID score (Step: 20000, Using train moments): 44.796515636484855
+[INFO] 2024-08-02 08:54:47 > Improved Precision (Step: 20000, Using train images): 0.60632
+[INFO] 2024-08-02 08:54:47 > Improved Recall (Step: 20000, Using train images): 0.322
+[INFO] 2024-08-02 08:54:47 > Density (Step: 20000, Using train images): 0.5092800000000001
+[INFO] 2024-08-02 08:54:47 > Coverage (Step: 20000, Using train images): 0.29228
+[INFO] 2024-08-02 08:54:47 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:54:49 > Step:  20100 Progress: 10.1% Elapsed: 0:40:41 Gen_loss: 9.052 Dis_loss: 0.2235 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:54:51 > Step:  20200 Progress: 10.1% Elapsed: 0:40:43 Gen_loss: 7.393 Dis_loss: 0.003869 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:54:54 > Step:  20300 Progress: 10.2% Elapsed: 0:40:46 Gen_loss: 10.96 Dis_loss: 0.2721 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:54:56 > Step:  20400 Progress: 10.2% Elapsed: 0:40:48 Gen_loss: 6.62 Dis_loss: 0.1981 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:54:58 > Step:  20500 Progress: 10.2% Elapsed: 0:40:50 Gen_loss: 7.18 Dis_loss: 0.09374 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:01 > Step:  20600 Progress: 10.3% Elapsed: 0:40:52 Gen_loss: 5.737 Dis_loss: 0.05742 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:03 > Step:  20700 Progress: 10.3% Elapsed: 0:40:55 Gen_loss: 8.691 Dis_loss: 0.07289 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:05 > Step:  20800 Progress: 10.4% Elapsed: 0:40:57 Gen_loss: 10.4 Dis_loss: 0.02476 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:07 > Step:  20900 Progress: 10.4% Elapsed: 0:40:59 Gen_loss: 6.708 Dis_loss: 0.2263 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:10 > Step:  21000 Progress: 10.5% Elapsed: 0:41:02 Gen_loss: 6.532 Dis_loss: 0.0008384 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:12 > Step:  21100 Progress: 10.5% Elapsed: 0:41:04 Gen_loss: 4.172 Dis_loss: 0.009766 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:14 > Step:  21200 Progress: 10.6% Elapsed: 0:41:06 Gen_loss: 11.24 Dis_loss: 0.005674 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:17 > Step:  21300 Progress: 10.7% Elapsed: 0:41:08 Gen_loss: 7.575 Dis_loss: 0.01847 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:19 > Step:  21400 Progress: 10.7% Elapsed: 0:41:11 Gen_loss: 9.351 Dis_loss: 0.0003954 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:21 > Step:  21500 Progress: 10.8% Elapsed: 0:41:13 Gen_loss: 7.695 Dis_loss: 0.006014 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:24 > Step:  21600 Progress: 10.8% Elapsed: 0:41:15 Gen_loss: 4.735 Dis_loss: 0.01281 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:26 > Step:  21700 Progress: 10.8% Elapsed: 0:41:18 Gen_loss: 3.024 Dis_loss: 0.02419 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:28 > Step:  21800 Progress: 10.9% Elapsed: 0:41:20 Gen_loss: 8.217 Dis_loss: 0.01752 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:30 > Step:  21900 Progress: 10.9% Elapsed: 0:41:22 Gen_loss: 9.913 Dis_loss: 0.4787 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:33 > Step:  22000 Progress: 11.0% Elapsed: 0:41:25 Gen_loss: 7.43 Dis_loss: 0.06911 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:55:33 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:55:33 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_22000.png
+[INFO] 2024-08-02 08:55:33 > Start Evaluation (22000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:55:33 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:56:35 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:56:35 > Inception score (Step: 22000, 50000 generated images): 6.597082138061523
+[INFO] 2024-08-02 08:56:37 > FID score (Step: 22000, Using train moments): 41.3761553010728
+[INFO] 2024-08-02 08:56:37 > Best FID score (Step: 22000, Using train moments): 41.3761553010728
+[INFO] 2024-08-02 08:58:49 > Improved Precision (Step: 22000, Using train images): 0.6255
+[INFO] 2024-08-02 08:58:49 > Improved Recall (Step: 22000, Using train images): 0.27488
+[INFO] 2024-08-02 08:58:49 > Density (Step: 22000, Using train images): 0.533768
+[INFO] 2024-08-02 08:58:49 > Coverage (Step: 22000, Using train images): 0.33362
+[INFO] 2024-08-02 08:58:50 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:58:52 > Step:  22100 Progress: 11.1% Elapsed: 0:44:44 Gen_loss: 14.87 Dis_loss: 0.0008085 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:58:54 > Step:  22200 Progress: 11.1% Elapsed: 0:44:46 Gen_loss: 6.842 Dis_loss: 0.003742 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:58:56 > Step:  22300 Progress: 11.2% Elapsed: 0:44:48 Gen_loss: 4.709 Dis_loss: 0.002257 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:58:59 > Step:  22400 Progress: 11.2% Elapsed: 0:44:51 Gen_loss: 9.141 Dis_loss: 0.0002252 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:01 > Step:  22500 Progress: 11.2% Elapsed: 0:44:53 Gen_loss: 7.435 Dis_loss: 0.00533 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:03 > Step:  22600 Progress: 11.3% Elapsed: 0:44:55 Gen_loss: 6.897 Dis_loss: 0.002609 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:06 > Step:  22700 Progress: 11.3% Elapsed: 0:44:57 Gen_loss: 7.382 Dis_loss: 0.003897 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:08 > Step:  22800 Progress: 11.4% Elapsed: 0:45:00 Gen_loss: 8.826 Dis_loss: 0.002099 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:10 > Step:  22900 Progress: 11.5% Elapsed: 0:45:02 Gen_loss: 5.85 Dis_loss: 0.04208 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:12 > Step:  23000 Progress: 11.5% Elapsed: 0:45:04 Gen_loss: 6.536 Dis_loss: 0.006587 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:15 > Step:  23100 Progress: 11.6% Elapsed: 0:45:07 Gen_loss: 7.229 Dis_loss: 0.0003238 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:17 > Step:  23200 Progress: 11.6% Elapsed: 0:45:09 Gen_loss: 5.531 Dis_loss: 0.0003335 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:19 > Step:  23300 Progress: 11.7% Elapsed: 0:45:11 Gen_loss: 4.345 Dis_loss: 0.0214 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:22 > Step:  23400 Progress: 11.7% Elapsed: 0:45:13 Gen_loss: 6.913 Dis_loss: 0.01088 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:24 > Step:  23500 Progress: 11.8% Elapsed: 0:45:16 Gen_loss: 5.627 Dis_loss: 0.0004936 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:26 > Step:  23600 Progress: 11.8% Elapsed: 0:45:18 Gen_loss: 8.653 Dis_loss: 0.01344 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:28 > Step:  23700 Progress: 11.8% Elapsed: 0:45:20 Gen_loss: 2.32 Dis_loss: 0.03383 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:31 > Step:  23800 Progress: 11.9% Elapsed: 0:45:23 Gen_loss: 8.226 Dis_loss: 0.001168 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:33 > Step:  23900 Progress: 11.9% Elapsed: 0:45:25 Gen_loss: 11.4 Dis_loss: 0.06927 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:35 > Step:  24000 Progress: 12.0% Elapsed: 0:45:27 Gen_loss: 5.731 Dis_loss: 0.0008469 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:59:35 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:59:35 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_24000.png
+[INFO] 2024-08-02 08:59:35 > Start Evaluation (24000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:59:35 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:00:37 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:00:37 > Inception score (Step: 24000, 50000 generated images): 6.453291416168213
+[INFO] 2024-08-02 09:00:40 > FID score (Step: 24000, Using train moments): 49.617372063196285
+[INFO] 2024-08-02 09:00:40 > Best FID score (Step: 22000, Using train moments): 41.3761553010728
+[INFO] 2024-08-02 09:02:49 > Improved Precision (Step: 24000, Using train images): 0.61566
+[INFO] 2024-08-02 09:02:49 > Improved Recall (Step: 24000, Using train images): 0.27508
+[INFO] 2024-08-02 09:02:49 > Density (Step: 24000, Using train images): 0.5094839999999999
+[INFO] 2024-08-02 09:02:49 > Coverage (Step: 24000, Using train images): 0.30054
+[INFO] 2024-08-02 09:02:49 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:02:52 > Step:  24100 Progress: 12.0% Elapsed: 0:48:43 Gen_loss: 3.412 Dis_loss: 0.009541 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:02:54 > Step:  24200 Progress: 12.1% Elapsed: 0:48:46 Gen_loss: 7.749 Dis_loss: 0.01815 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:02:56 > Step:  24300 Progress: 12.2% Elapsed: 0:48:48 Gen_loss: 6.85 Dis_loss: 0.07834 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:02:58 > Step:  24400 Progress: 12.2% Elapsed: 0:48:50 Gen_loss: 2.275 Dis_loss: 0.005737 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:01 > Step:  24500 Progress: 12.2% Elapsed: 0:48:53 Gen_loss: 3.833 Dis_loss: 0.004624 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:03 > Step:  24600 Progress: 12.3% Elapsed: 0:48:55 Gen_loss: 3.301 Dis_loss: 0.002174 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:05 > Step:  24700 Progress: 12.3% Elapsed: 0:48:57 Gen_loss: 11.11 Dis_loss: 0.001611 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:08 > Step:  24800 Progress: 12.4% Elapsed: 0:48:59 Gen_loss: 7.254 Dis_loss: 0.4364 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:10 > Step:  24900 Progress: 12.4% Elapsed: 0:49:02 Gen_loss: 10.49 Dis_loss: 0.00629 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:12 > Step:  25000 Progress: 12.5% Elapsed: 0:49:04 Gen_loss: 10.11 Dis_loss: 0.001706 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:14 > Step:  25100 Progress: 12.6% Elapsed: 0:49:06 Gen_loss: 9.232 Dis_loss: 0.003467 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:17 > Step:  25200 Progress: 12.6% Elapsed: 0:49:09 Gen_loss: 4.518 Dis_loss: 0.001428 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:19 > Step:  25300 Progress: 12.7% Elapsed: 0:49:11 Gen_loss: 7.285 Dis_loss: 0.003191 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:21 > Step:  25400 Progress: 12.7% Elapsed: 0:49:13 Gen_loss: 8.106 Dis_loss: 0.002694 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:24 > Step:  25500 Progress: 12.8% Elapsed: 0:49:15 Gen_loss: 8.166 Dis_loss: 0.02474 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:26 > Step:  25600 Progress: 12.8% Elapsed: 0:49:18 Gen_loss: 6.992 Dis_loss: 0.02818 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:28 > Step:  25700 Progress: 12.8% Elapsed: 0:49:20 Gen_loss: 5.655 Dis_loss: 0.007483 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:30 > Step:  25800 Progress: 12.9% Elapsed: 0:49:22 Gen_loss: 3.605 Dis_loss: 0.02265 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:33 > Step:  25900 Progress: 13.0% Elapsed: 0:49:25 Gen_loss: 3.517 Dis_loss: 0.01991 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:35 > Step:  26000 Progress: 13.0% Elapsed: 0:49:27 Gen_loss: 7.751 Dis_loss: 0.0005052 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:03:35 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:03:35 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_26000.png
+[INFO] 2024-08-02 09:03:35 > Start Evaluation (26000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:03:35 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:04:36 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:04:36 > Inception score (Step: 26000, 50000 generated images): 6.3453898429870605
+[INFO] 2024-08-02 09:04:39 > FID score (Step: 26000, Using train moments): 44.51295553880391
+[INFO] 2024-08-02 09:04:39 > Best FID score (Step: 22000, Using train moments): 41.3761553010728
+[INFO] 2024-08-02 09:06:49 > Improved Precision (Step: 26000, Using train images): 0.60814
+[INFO] 2024-08-02 09:06:49 > Improved Recall (Step: 26000, Using train images): 0.31154
+[INFO] 2024-08-02 09:06:49 > Density (Step: 26000, Using train images): 0.49784
+[INFO] 2024-08-02 09:06:49 > Coverage (Step: 26000, Using train images): 0.3055
+[INFO] 2024-08-02 09:06:49 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:06:52 > Step:  26100 Progress: 13.1% Elapsed: 0:52:43 Gen_loss: 0.1673 Dis_loss: 0.02363 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:06:54 > Step:  26200 Progress: 13.1% Elapsed: 0:52:46 Gen_loss: 12.64 Dis_loss: 1.409 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:06:56 > Step:  26300 Progress: 13.2% Elapsed: 0:52:48 Gen_loss: 9.193 Dis_loss: 0.0001111 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:06:58 > Step:  26400 Progress: 13.2% Elapsed: 0:52:50 Gen_loss: 10.86 Dis_loss: 0.01277 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:01 > Step:  26500 Progress: 13.2% Elapsed: 0:52:52 Gen_loss: 8.85 Dis_loss: 0.08232 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:03 > Step:  26600 Progress: 13.3% Elapsed: 0:52:55 Gen_loss: 3.922 Dis_loss: 0.00267 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:05 > Step:  26700 Progress: 13.4% Elapsed: 0:52:57 Gen_loss: 10.11 Dis_loss: 0.0002603 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:07 > Step:  26800 Progress: 13.4% Elapsed: 0:52:59 Gen_loss: 8.829 Dis_loss: 0.008706 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:10 > Step:  26900 Progress: 13.5% Elapsed: 0:53:02 Gen_loss: 7.86 Dis_loss: 0.00146 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:12 > Step:  27000 Progress: 13.5% Elapsed: 0:53:04 Gen_loss: 10.06 Dis_loss: 0.02235 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:14 > Step:  27100 Progress: 13.6% Elapsed: 0:53:06 Gen_loss: 7.293 Dis_loss: 0.001929 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:17 > Step:  27200 Progress: 13.6% Elapsed: 0:53:09 Gen_loss: 5.183 Dis_loss: 0.04256 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:19 > Step:  27300 Progress: 13.7% Elapsed: 0:53:11 Gen_loss: 2.122 Dis_loss: 0.007684 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:21 > Step:  27400 Progress: 13.7% Elapsed: 0:53:13 Gen_loss: 6.793 Dis_loss: 0.0015 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:24 > Step:  27500 Progress: 13.8% Elapsed: 0:53:15 Gen_loss: 9.968 Dis_loss: 0.0005804 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:26 > Step:  27600 Progress: 13.8% Elapsed: 0:53:18 Gen_loss: 2.84 Dis_loss: 0.07934 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:28 > Step:  27700 Progress: 13.9% Elapsed: 0:53:20 Gen_loss: 0.01223 Dis_loss: 0.05405 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:31 > Step:  27800 Progress: 13.9% Elapsed: 0:53:22 Gen_loss: 7.644 Dis_loss: 0.007459 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:33 > Step:  27900 Progress: 14.0% Elapsed: 0:53:25 Gen_loss: 8.296 Dis_loss: 0.009518 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:35 > Step:  28000 Progress: 14.0% Elapsed: 0:53:27 Gen_loss: 4.36 Dis_loss: 0.005988 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:07:35 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:07:35 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_28000.png
+[INFO] 2024-08-02 09:07:35 > Start Evaluation (28000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:07:35 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:08:37 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:08:37 > Inception score (Step: 28000, 50000 generated images): 6.589775085449219
+[INFO] 2024-08-02 09:08:40 > FID score (Step: 28000, Using train moments): 43.05377933335001
+[INFO] 2024-08-02 09:08:40 > Best FID score (Step: 22000, Using train moments): 41.3761553010728
+[INFO] 2024-08-02 09:10:50 > Improved Precision (Step: 28000, Using train images): 0.57576
+[INFO] 2024-08-02 09:10:50 > Improved Recall (Step: 28000, Using train images): 0.35466
+[INFO] 2024-08-02 09:10:50 > Density (Step: 28000, Using train images): 0.444728
+[INFO] 2024-08-02 09:10:50 > Coverage (Step: 28000, Using train images): 0.28932
+[INFO] 2024-08-02 09:10:50 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:10:52 > Step:  28100 Progress: 14.1% Elapsed: 0:56:44 Gen_loss: 5.841 Dis_loss: 0.0008497 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:10:55 > Step:  28200 Progress: 14.1% Elapsed: 0:56:47 Gen_loss: 10.7 Dis_loss: 0.001482 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:10:57 > Step:  28300 Progress: 14.1% Elapsed: 0:56:49 Gen_loss: 8.792 Dis_loss: 0.002496 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:10:59 > Step:  28400 Progress: 14.2% Elapsed: 0:56:51 Gen_loss: 7.463 Dis_loss: 0.0007619 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:02 > Step:  28500 Progress: 14.2% Elapsed: 0:56:53 Gen_loss: 8.066 Dis_loss: 0.0006711 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:04 > Step:  28600 Progress: 14.3% Elapsed: 0:56:56 Gen_loss: 2.356 Dis_loss: 0.2297 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:06 > Step:  28700 Progress: 14.3% Elapsed: 0:56:58 Gen_loss: 12.86 Dis_loss: 0.0004941 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:08 > Step:  28800 Progress: 14.4% Elapsed: 0:57:00 Gen_loss: 8.678 Dis_loss: 0.004005 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:11 > Step:  28900 Progress: 14.4% Elapsed: 0:57:03 Gen_loss: 7.58 Dis_loss: 0.003355 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:13 > Step:  29000 Progress: 14.5% Elapsed: 0:57:05 Gen_loss: 7.325 Dis_loss: 0.06416 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:15 > Step:  29100 Progress: 14.5% Elapsed: 0:57:07 Gen_loss: 7.226 Dis_loss: 0.0009103 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:18 > Step:  29200 Progress: 14.6% Elapsed: 0:57:09 Gen_loss: 8.731 Dis_loss: 0.004215 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:20 > Step:  29300 Progress: 14.6% Elapsed: 0:57:12 Gen_loss: 5.295 Dis_loss: 0.001097 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:22 > Step:  29400 Progress: 14.7% Elapsed: 0:57:14 Gen_loss: 4.083 Dis_loss: 0.002504 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:24 > Step:  29500 Progress: 14.8% Elapsed: 0:57:16 Gen_loss: 4.813 Dis_loss: 0.03762 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:27 > Step:  29600 Progress: 14.8% Elapsed: 0:57:19 Gen_loss: 8.19 Dis_loss: 0.005879 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:29 > Step:  29700 Progress: 14.8% Elapsed: 0:57:21 Gen_loss: 7.944 Dis_loss: 0.005998 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:31 > Step:  29800 Progress: 14.9% Elapsed: 0:57:23 Gen_loss: 4.099 Dis_loss: 0.0006687 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:34 > Step:  29900 Progress: 14.9% Elapsed: 0:57:25 Gen_loss: 16.28 Dis_loss: 0.07636 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:36 > Step:  30000 Progress: 15.0% Elapsed: 0:57:28 Gen_loss: 11.55 Dis_loss: 0.0168 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:11:36 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:11:36 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_30000.png
+[INFO] 2024-08-02 09:11:36 > Start Evaluation (30000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:11:36 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:12:37 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:12:37 > Inception score (Step: 30000, 50000 generated images): 7.271038055419922
+[INFO] 2024-08-02 09:12:40 > FID score (Step: 30000, Using train moments): 40.78254352653755
+[INFO] 2024-08-02 09:12:40 > Best FID score (Step: 30000, Using train moments): 40.78254352653755
+[INFO] 2024-08-02 09:14:49 > Improved Precision (Step: 30000, Using train images): 0.58
+[INFO] 2024-08-02 09:14:49 > Improved Recall (Step: 30000, Using train images): 0.3119
+[INFO] 2024-08-02 09:14:49 > Density (Step: 30000, Using train images): 0.45953600000000006
+[INFO] 2024-08-02 09:14:49 > Coverage (Step: 30000, Using train images): 0.35838
+[INFO] 2024-08-02 09:14:49 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:14:51 > Step:  30100 Progress: 15.0% Elapsed: 1:00:43 Gen_loss: 11.76 Dis_loss: 0.02959 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:14:54 > Step:  30200 Progress: 15.1% Elapsed: 1:00:45 Gen_loss: 9.794 Dis_loss: 0.0008895 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:14:56 > Step:  30300 Progress: 15.2% Elapsed: 1:00:48 Gen_loss: 10.42 Dis_loss: 0.01679 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:14:58 > Step:  30400 Progress: 15.2% Elapsed: 1:00:50 Gen_loss: 3.704 Dis_loss: 0.1568 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:00 > Step:  30500 Progress: 15.2% Elapsed: 1:00:52 Gen_loss: 10.53 Dis_loss: 0.0003174 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:03 > Step:  30600 Progress: 15.3% Elapsed: 1:00:55 Gen_loss: 6.193 Dis_loss: 0.03193 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:05 > Step:  30700 Progress: 15.3% Elapsed: 1:00:57 Gen_loss: 3.432 Dis_loss: 0.002252 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:07 > Step:  30800 Progress: 15.4% Elapsed: 1:00:59 Gen_loss: 9.568 Dis_loss: 0.002214 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:10 > Step:  30900 Progress: 15.4% Elapsed: 1:01:01 Gen_loss: 6.373 Dis_loss: 0.0001252 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:12 > Step:  31000 Progress: 15.5% Elapsed: 1:01:04 Gen_loss: 19.74 Dis_loss: 3.652 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:14 > Step:  31100 Progress: 15.6% Elapsed: 1:01:06 Gen_loss: 7.561 Dis_loss: 0.04567 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:17 > Step:  31200 Progress: 15.6% Elapsed: 1:01:08 Gen_loss: 5.296 Dis_loss: 0.00768 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:19 > Step:  31300 Progress: 15.7% Elapsed: 1:01:11 Gen_loss: 12.52 Dis_loss: 0.01606 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:21 > Step:  31400 Progress: 15.7% Elapsed: 1:01:13 Gen_loss: 9.012 Dis_loss: 0.0992 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:23 > Step:  31500 Progress: 15.8% Elapsed: 1:01:15 Gen_loss: 8.604 Dis_loss: 0.01427 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:26 > Step:  31600 Progress: 15.8% Elapsed: 1:01:18 Gen_loss: 8.327 Dis_loss: 0.002727 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:28 > Step:  31700 Progress: 15.8% Elapsed: 1:01:20 Gen_loss: 4.671 Dis_loss: 0.001407 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:30 > Step:  31800 Progress: 15.9% Elapsed: 1:01:22 Gen_loss: 6.969 Dis_loss: 0.0009563 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:33 > Step:  31900 Progress: 16.0% Elapsed: 1:01:25 Gen_loss: 3.968 Dis_loss: 0.0009516 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:35 > Step:  32000 Progress: 16.0% Elapsed: 1:01:27 Gen_loss: 10.79 Dis_loss: 0.0003532 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:15:35 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:15:35 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_32000.png
+[INFO] 2024-08-02 09:15:35 > Start Evaluation (32000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:15:35 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:16:37 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:16:37 > Inception score (Step: 32000, 50000 generated images): 6.605836391448975
+[INFO] 2024-08-02 09:16:39 > FID score (Step: 32000, Using train moments): 44.32994669075549
+[INFO] 2024-08-02 09:16:39 > Best FID score (Step: 30000, Using train moments): 40.78254352653755
+[INFO] 2024-08-02 09:18:49 > Improved Precision (Step: 32000, Using train images): 0.58516
+[INFO] 2024-08-02 09:18:49 > Improved Recall (Step: 32000, Using train images): 0.28382
+[INFO] 2024-08-02 09:18:49 > Density (Step: 32000, Using train images): 0.46423600000000004
+[INFO] 2024-08-02 09:18:49 > Coverage (Step: 32000, Using train images): 0.3124
+[INFO] 2024-08-02 09:18:49 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:18:51 > Step:  32100 Progress: 16.1% Elapsed: 1:04:43 Gen_loss: 5.834 Dis_loss: 0.005589 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:18:53 > Step:  32200 Progress: 16.1% Elapsed: 1:04:45 Gen_loss: 11.75 Dis_loss: 0.004649 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:18:56 > Step:  32300 Progress: 16.2% Elapsed: 1:04:48 Gen_loss: 6.822 Dis_loss: 0.002752 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:18:58 > Step:  32400 Progress: 16.2% Elapsed: 1:04:50 Gen_loss: 5.76 Dis_loss: 0.01055 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:00 > Step:  32500 Progress: 16.2% Elapsed: 1:04:52 Gen_loss: 8.442 Dis_loss: 0.01454 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:03 > Step:  32600 Progress: 16.3% Elapsed: 1:04:55 Gen_loss: 2.266 Dis_loss: 0.004137 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:05 > Step:  32700 Progress: 16.4% Elapsed: 1:04:57 Gen_loss: 9.646 Dis_loss: 0.06491 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:08 > Step:  32800 Progress: 16.4% Elapsed: 1:05:00 Gen_loss: 3.405 Dis_loss: 0.002576 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:10 > Step:  32900 Progress: 16.4% Elapsed: 1:05:02 Gen_loss: 18.36 Dis_loss: 0.000481 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:13 > Step:  33000 Progress: 16.5% Elapsed: 1:05:04 Gen_loss: 8.463 Dis_loss: 0.02705 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:15 > Step:  33100 Progress: 16.6% Elapsed: 1:05:07 Gen_loss: 9.732 Dis_loss: 0.004488 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:17 > Step:  33200 Progress: 16.6% Elapsed: 1:05:09 Gen_loss: 9.724 Dis_loss: 0.0006096 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:20 > Step:  33300 Progress: 16.7% Elapsed: 1:05:12 Gen_loss: 8.245 Dis_loss: 0.03935 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:22 > Step:  33400 Progress: 16.7% Elapsed: 1:05:14 Gen_loss: 8.771 Dis_loss: 0.0115 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:25 > Step:  33500 Progress: 16.8% Elapsed: 1:05:17 Gen_loss: 11.49 Dis_loss: 0.001889 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:27 > Step:  33600 Progress: 16.8% Elapsed: 1:05:19 Gen_loss: 4.854 Dis_loss: 0.001318 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:30 > Step:  33700 Progress: 16.9% Elapsed: 1:05:21 Gen_loss: 7.352 Dis_loss: 0.007028 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:32 > Step:  33800 Progress: 16.9% Elapsed: 1:05:24 Gen_loss: 1.277 Dis_loss: 0.001787 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:34 > Step:  33900 Progress: 17.0% Elapsed: 1:05:26 Gen_loss: 11.52 Dis_loss: 3.291 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:37 > Step:  34000 Progress: 17.0% Elapsed: 1:05:29 Gen_loss: 8.235 Dis_loss: 0.007172 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:19:37 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:19:37 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_34000.png
+[INFO] 2024-08-02 09:19:37 > Start Evaluation (34000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:19:37 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:20:38 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:20:38 > Inception score (Step: 34000, 50000 generated images): 6.104612350463867
+[INFO] 2024-08-02 09:20:40 > FID score (Step: 34000, Using train moments): 45.52844306715514
+[INFO] 2024-08-02 09:20:40 > Best FID score (Step: 30000, Using train moments): 40.78254352653755
+[INFO] 2024-08-02 09:22:50 > Improved Precision (Step: 34000, Using train images): 0.58128
+[INFO] 2024-08-02 09:22:50 > Improved Recall (Step: 34000, Using train images): 0.28864
+[INFO] 2024-08-02 09:22:50 > Density (Step: 34000, Using train images): 0.475864
+[INFO] 2024-08-02 09:22:50 > Coverage (Step: 34000, Using train images): 0.30848
+[INFO] 2024-08-02 09:22:50 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:22:52 > Step:  34100 Progress: 17.1% Elapsed: 1:08:44 Gen_loss: 10.49 Dis_loss: 0.00156 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:22:55 > Step:  34200 Progress: 17.1% Elapsed: 1:08:47 Gen_loss: 7.579 Dis_loss: 0.00247 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:22:57 > Step:  34300 Progress: 17.2% Elapsed: 1:08:49 Gen_loss: 9.844 Dis_loss: 0.01182 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:00 > Step:  34400 Progress: 17.2% Elapsed: 1:08:52 Gen_loss: 4.766 Dis_loss: 0.0005925 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:02 > Step:  34500 Progress: 17.2% Elapsed: 1:08:54 Gen_loss: 10.01 Dis_loss: 0.0005596 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:05 > Step:  34600 Progress: 17.3% Elapsed: 1:08:56 Gen_loss: 9.156 Dis_loss: 0.001174 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:07 > Step:  34700 Progress: 17.3% Elapsed: 1:08:59 Gen_loss: 6.855 Dis_loss: 0.0003371 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:09 > Step:  34800 Progress: 17.4% Elapsed: 1:09:01 Gen_loss: 9.047 Dis_loss: 0.002141 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:12 > Step:  34900 Progress: 17.4% Elapsed: 1:09:04 Gen_loss: 5.592 Dis_loss: 0.005585 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:14 > Step:  35000 Progress: 17.5% Elapsed: 1:09:06 Gen_loss: 8.214 Dis_loss: 0.0006774 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:17 > Step:  35100 Progress: 17.5% Elapsed: 1:09:08 Gen_loss: 6.691 Dis_loss: 0.003567 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:19 > Step:  35200 Progress: 17.6% Elapsed: 1:09:11 Gen_loss: 7.574 Dis_loss: 0.01678 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:21 > Step:  35300 Progress: 17.6% Elapsed: 1:09:13 Gen_loss: 8.021 Dis_loss: 0.002551 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:24 > Step:  35400 Progress: 17.7% Elapsed: 1:09:16 Gen_loss: 8.455 Dis_loss: 0.006373 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:26 > Step:  35500 Progress: 17.8% Elapsed: 1:09:18 Gen_loss: 8.788 Dis_loss: 0.001196 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:29 > Step:  35600 Progress: 17.8% Elapsed: 1:09:21 Gen_loss: 8.318 Dis_loss: 0.0006363 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:31 > Step:  35700 Progress: 17.8% Elapsed: 1:09:23 Gen_loss: 7.497 Dis_loss: 0.002555 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:34 > Step:  35800 Progress: 17.9% Elapsed: 1:09:25 Gen_loss: 11.23 Dis_loss: 0.002094 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:36 > Step:  35900 Progress: 17.9% Elapsed: 1:09:28 Gen_loss: 9.054 Dis_loss: 0.001112 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:38 > Step:  36000 Progress: 18.0% Elapsed: 1:09:30 Gen_loss: 14.34 Dis_loss: 0.02108 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:23:38 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:23:38 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_36000.png
+[INFO] 2024-08-02 09:23:38 > Start Evaluation (36000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:23:38 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:24:40 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:24:40 > Inception score (Step: 36000, 50000 generated images): 6.299882888793945
+[INFO] 2024-08-02 09:24:43 > FID score (Step: 36000, Using train moments): 38.980148059416706
+[INFO] 2024-08-02 09:24:43 > Best FID score (Step: 36000, Using train moments): 38.980148059416706
+[INFO] 2024-08-02 09:26:50 > Improved Precision (Step: 36000, Using train images): 0.63096
+[INFO] 2024-08-02 09:26:50 > Improved Recall (Step: 36000, Using train images): 0.29664
+[INFO] 2024-08-02 09:26:50 > Density (Step: 36000, Using train images): 0.537796
+[INFO] 2024-08-02 09:26:50 > Coverage (Step: 36000, Using train images): 0.33948
+[INFO] 2024-08-02 09:26:51 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:26:53 > Step:  36100 Progress: 18.1% Elapsed: 1:12:45 Gen_loss: 7.322 Dis_loss: 0.001123 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:26:55 > Step:  36200 Progress: 18.1% Elapsed: 1:12:47 Gen_loss: 5.428 Dis_loss: 0.01501 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:26:58 > Step:  36300 Progress: 18.1% Elapsed: 1:12:50 Gen_loss: 9.578 Dis_loss: 0.001993 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:00 > Step:  36400 Progress: 18.2% Elapsed: 1:12:52 Gen_loss: 13.58 Dis_loss: 0.0007014 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:03 > Step:  36500 Progress: 18.2% Elapsed: 1:12:55 Gen_loss: 14.01 Dis_loss: 0.001957 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:05 > Step:  36600 Progress: 18.3% Elapsed: 1:12:57 Gen_loss: 9.206 Dis_loss: 0.001863 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:08 > Step:  36700 Progress: 18.4% Elapsed: 1:12:59 Gen_loss: 7.052 Dis_loss: 0.01779 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:10 > Step:  36800 Progress: 18.4% Elapsed: 1:13:02 Gen_loss: 10.3 Dis_loss: 0.0005343 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:12 > Step:  36900 Progress: 18.4% Elapsed: 1:13:04 Gen_loss: 7.364 Dis_loss: 0.0001259 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:15 > Step:  37000 Progress: 18.5% Elapsed: 1:13:07 Gen_loss: 5.914 Dis_loss: 0.0004393 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:17 > Step:  37100 Progress: 18.6% Elapsed: 1:13:09 Gen_loss: 15.21 Dis_loss: 1.212e-05 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:20 > Step:  37200 Progress: 18.6% Elapsed: 1:13:12 Gen_loss: 8.092 Dis_loss: 0.0005485 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:22 > Step:  37300 Progress: 18.6% Elapsed: 1:13:14 Gen_loss: 7.682 Dis_loss: 0.002113 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:25 > Step:  37400 Progress: 18.7% Elapsed: 1:13:16 Gen_loss: 11.84 Dis_loss: 0.1348 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:27 > Step:  37500 Progress: 18.8% Elapsed: 1:13:19 Gen_loss: 9.943 Dis_loss: 0.00617 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:29 > Step:  37600 Progress: 18.8% Elapsed: 1:13:21 Gen_loss: 7.016 Dis_loss: 0.00308 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:32 > Step:  37700 Progress: 18.9% Elapsed: 1:13:24 Gen_loss: 10.83 Dis_loss: 5.208e-05 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:34 > Step:  37800 Progress: 18.9% Elapsed: 1:13:26 Gen_loss: 11.4 Dis_loss: 0.003276 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:37 > Step:  37900 Progress: 18.9% Elapsed: 1:13:28 Gen_loss: 8.097 Dis_loss: 0.004941 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:39 > Step:  38000 Progress: 19.0% Elapsed: 1:13:31 Gen_loss: 8.449 Dis_loss: 0.000533 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:27:39 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:27:39 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_38000.png
+[INFO] 2024-08-02 09:27:39 > Start Evaluation (38000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:27:39 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:28:40 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:28:40 > Inception score (Step: 38000, 50000 generated images): 6.873210906982422
+[INFO] 2024-08-02 09:28:43 > FID score (Step: 38000, Using train moments): 38.73274854937722
+[INFO] 2024-08-02 09:28:43 > Best FID score (Step: 38000, Using train moments): 38.73274854937722
+[INFO] 2024-08-02 09:30:53 > Improved Precision (Step: 38000, Using train images): 0.58372
+[INFO] 2024-08-02 09:30:53 > Improved Recall (Step: 38000, Using train images): 0.34012
+[INFO] 2024-08-02 09:30:53 > Density (Step: 38000, Using train images): 0.44552400000000003
+[INFO] 2024-08-02 09:30:53 > Coverage (Step: 38000, Using train images): 0.33386
+[INFO] 2024-08-02 09:30:53 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:30:55 > Step:  38100 Progress: 19.1% Elapsed: 1:16:47 Gen_loss: 7.423 Dis_loss: 0.0004905 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:30:58 > Step:  38200 Progress: 19.1% Elapsed: 1:16:50 Gen_loss: 4.247 Dis_loss: 0.00219 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:00 > Step:  38300 Progress: 19.1% Elapsed: 1:16:52 Gen_loss: 7.047 Dis_loss: 0.004888 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:03 > Step:  38400 Progress: 19.2% Elapsed: 1:16:55 Gen_loss: 12.16 Dis_loss: 0.006424 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:05 > Step:  38500 Progress: 19.2% Elapsed: 1:16:57 Gen_loss: 6.037 Dis_loss: 0.001145 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:08 > Step:  38600 Progress: 19.3% Elapsed: 1:16:59 Gen_loss: 6.738 Dis_loss: 0.0006003 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:10 > Step:  38700 Progress: 19.4% Elapsed: 1:17:02 Gen_loss: 6.857 Dis_loss: 0.0001448 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:12 > Step:  38800 Progress: 19.4% Elapsed: 1:17:04 Gen_loss: 9.988 Dis_loss: 0.0004158 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:15 > Step:  38900 Progress: 19.4% Elapsed: 1:17:07 Gen_loss: 9.398 Dis_loss: 0.004639 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:17 > Step:  39000 Progress: 19.5% Elapsed: 1:17:09 Gen_loss: 7.683 Dis_loss: 0.005821 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:20 > Step:  39100 Progress: 19.6% Elapsed: 1:17:11 Gen_loss: 10.87 Dis_loss: 5.244e-05 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:22 > Step:  39200 Progress: 19.6% Elapsed: 1:17:14 Gen_loss: 8.914 Dis_loss: 0.008484 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:24 > Step:  39300 Progress: 19.7% Elapsed: 1:17:16 Gen_loss: 19.18 Dis_loss: 0.00128 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:27 > Step:  39400 Progress: 19.7% Elapsed: 1:17:19 Gen_loss: 7.064 Dis_loss: 0.0001993 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:29 > Step:  39500 Progress: 19.8% Elapsed: 1:17:21 Gen_loss: 9.07 Dis_loss: 0.0003009 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:32 > Step:  39600 Progress: 19.8% Elapsed: 1:17:24 Gen_loss: 8.505 Dis_loss: 0.0001179 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:34 > Step:  39700 Progress: 19.9% Elapsed: 1:17:26 Gen_loss: 4.715 Dis_loss: 0.02888 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:37 > Step:  39800 Progress: 19.9% Elapsed: 1:17:28 Gen_loss: 9.973 Dis_loss: 0.0007272 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:39 > Step:  39900 Progress: 20.0% Elapsed: 1:17:31 Gen_loss: 10.54 Dis_loss: 0.0005768 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:41 > Step:  40000 Progress: 20.0% Elapsed: 1:17:33 Gen_loss: 3.094 Dis_loss: 0.02028 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:31:41 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:31:42 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_40000.png
+[INFO] 2024-08-02 09:31:42 > Start Evaluation (40000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:31:42 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 09:32:42 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 09:32:42 > Inception score (Step: 40000, 50000 generated images): 7.144144058227539
+[INFO] 2024-08-02 09:32:45 > FID score (Step: 40000, Using train moments): 40.66149336792995
+[INFO] 2024-08-02 09:32:45 > Best FID score (Step: 38000, Using train moments): 38.73274854937722
+[INFO] 2024-08-02 09:34:54 > Improved Precision (Step: 40000, Using train images): 0.5449
+[INFO] 2024-08-02 09:34:54 > Improved Recall (Step: 40000, Using train images): 0.30528
+[INFO] 2024-08-02 09:34:54 > Density (Step: 40000, Using train images): 0.40887200000000007
+[INFO] 2024-08-02 09:34:54 > Coverage (Step: 40000, Using train images): 0.32268
+[INFO] 2024-08-02 09:34:54 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:34:57 > Step:  40100 Progress: 20.1% Elapsed: 1:20:49 Gen_loss: 10.22 Dis_loss: 0.003594 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:34:59 > Step:  40200 Progress: 20.1% Elapsed: 1:20:51 Gen_loss: 3.939 Dis_loss: 0.007411 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:01 > Step:  40300 Progress: 20.2% Elapsed: 1:20:53 Gen_loss: 9.506 Dis_loss: 0.0001848 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:04 > Step:  40400 Progress: 20.2% Elapsed: 1:20:56 Gen_loss: 9.637 Dis_loss: 0.003261 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:06 > Step:  40500 Progress: 20.2% Elapsed: 1:20:58 Gen_loss: 4.966 Dis_loss: 8.864e-05 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:08 > Step:  40600 Progress: 20.3% Elapsed: 1:21:00 Gen_loss: 6.376 Dis_loss: 0.0009914 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:11 > Step:  40700 Progress: 20.3% Elapsed: 1:21:02 Gen_loss: 7.164 Dis_loss: 0.006232 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:13 > Step:  40800 Progress: 20.4% Elapsed: 1:21:05 Gen_loss: 5.624 Dis_loss: 0.003556 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:15 > Step:  40900 Progress: 20.4% Elapsed: 1:21:07 Gen_loss: 10.03 Dis_loss: 0.001259 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:18 > Step:  41000 Progress: 20.5% Elapsed: 1:21:09 Gen_loss: 7.029 Dis_loss: 0.01742 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:20 > Step:  41100 Progress: 20.5% Elapsed: 1:21:12 Gen_loss: 8.649 Dis_loss: 0.008371 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:22 > Step:  41200 Progress: 20.6% Elapsed: 1:21:14 Gen_loss: 3.827 Dis_loss: 0.001164 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:24 > Step:  41300 Progress: 20.6% Elapsed: 1:21:16 Gen_loss: 6.775 Dis_loss: 0.001453 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:27 > Step:  41400 Progress: 20.7% Elapsed: 1:21:19 Gen_loss: 10.7 Dis_loss: 0.07838 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:29 > Step:  41500 Progress: 20.8% Elapsed: 1:21:21 Gen_loss: 11.17 Dis_loss: 0.001437 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:31 > Step:  41600 Progress: 20.8% Elapsed: 1:21:23 Gen_loss: 10.72 Dis_loss: 0.001165 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:34 > Step:  41700 Progress: 20.8% Elapsed: 1:21:26 Gen_loss: 5.367 Dis_loss: 0.05079 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:36 > Step:  41800 Progress: 20.9% Elapsed: 1:21:28 Gen_loss: 17.0 Dis_loss: 9.076e-05 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:38 > Step:  41900 Progress: 20.9% Elapsed: 1:21:30 Gen_loss: 6.831 Dis_loss: 0.002222 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:41 > Step:  42000 Progress: 21.0% Elapsed: 1:21:33 Gen_loss: 10.93 Dis_loss: 0.0004846 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 09:35:41 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 09:35:41 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_42000.png
+[INFO] 2024-08-02 09:35:41 > Start Evaluation (42000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 09:35:41 > generate images and stack features (50000 images).
