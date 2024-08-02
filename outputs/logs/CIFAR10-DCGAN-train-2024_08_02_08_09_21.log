@@ -1,0 +1,389 @@
+[INFO] 2024-08-02 08:09:29 > Run name : CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:09:29 > cfgs.DATA =
+[INFO] 2024-08-02 08:09:29 > {
+  "name": "CIFAR10",
+  "img_size": 32,
+  "num_classes": 10,
+  "img_channels": 3
+}
+[INFO] 2024-08-02 08:09:29 > cfgs.MODEL =
+[INFO] 2024-08-02 08:09:29 > {
+  "backbone": "deep_conv",
+  "g_cond_mtd": "W/O",
+  "d_cond_mtd": "W/O",
+  "aux_cls_type": "W/O",
+  "normalize_d_embed": false,
+  "d_embed_dim": "N/A",
+  "apply_g_sn": false,
+  "apply_d_sn": false,
+  "g_act_fn": "ReLU",
+  "d_act_fn": "ReLU",
+  "apply_attn": false,
+  "attn_g_loc": [
+    "N/A"
+  ],
+  "attn_d_loc": [
+    "N/A"
+  ],
+  "z_prior": "gaussian",
+  "z_dim": 128,
+  "w_dim": "N/A",
+  "g_shared_dim": "N/A",
+  "g_conv_dim": "N/A",
+  "d_conv_dim": "N/A",
+  "g_depth": "N/A",
+  "d_depth": "N/A",
+  "apply_g_ema": false,
+  "g_ema_decay": "N/A",
+  "g_ema_start": "N/A",
+  "g_init": "ortho",
+  "d_init": "ortho",
+  "info_type": "N/A",
+  "g_info_injection": "N/A",
+  "info_num_discrete_c": "N/A",
+  "info_num_conti_c": "N/A",
+  "info_dim_discrete_c": "N/A"
+}
+[INFO] 2024-08-02 08:09:29 > cfgs.LOSS =
+[INFO] 2024-08-02 08:09:29 > {
+  "adv_loss": "vanilla",
+  "cond_lambda": "N/A",
+  "tac_gen_lambda": "N/A",
+  "tac_dis_lambda": "N/A",
+  "mh_lambda": "N/A",
+  "apply_fm": false,
+  "fm_lambda": "N/A",
+  "apply_r1_reg": false,
+  "r1_place": "N/A",
+  "r1_lambda": "N/A",
+  "m_p": "N/A",
+  "temperature": "N/A",
+  "apply_wc": false,
+  "wc_bound": "N/A",
+  "apply_gp": false,
+  "gp_lambda": "N/A",
+  "apply_dra": false,
+  "dra_lambda": "N/A",
+  "apply_maxgp": false,
+  "maxgp_lambda": "N/A",
+  "apply_cr": false,
+  "cr_lambda": "N/A",
+  "apply_bcr": false,
+  "real_lambda": "N/A",
+  "fake_lambda": "N/A",
+  "apply_zcr": false,
+  "radius": "N/A",
+  "g_lambda": "N/A",
+  "d_lambda": "N/A",
+  "apply_lo": false,
+  "lo_alpha": "N/A",
+  "lo_beta": "N/A",
+  "lo_rate": "N/A",
+  "lo_lambda": "N/A",
+  "lo_steps4train": "N/A",
+  "lo_steps4eval": "N/A",
+  "apply_topk": false,
+  "topk_gamma": "N/A",
+  "topk_nu": "N/A",
+  "infoGAN_loss_discrete_lambda": "N/A",
+  "infoGAN_loss_conti_lambda": "N/A",
+  "apply_lecam": false,
+  "lecam_lambda": "N/A",
+  "lecam_ema_start_iter": "N/A",
+  "lecam_ema_decay": "N/A"
+}
+[INFO] 2024-08-02 08:09:29 > cfgs.OPTIMIZATION =
+[INFO] 2024-08-02 08:09:29 > {
+  "type_": "Adam",
+  "batch_size": 64,
+  "acml_steps": 1,
+  "g_lr": 0.0002,
+  "d_lr": 0.0002,
+  "g_weight_decay": 0.0,
+  "d_weight_decay": 0.0,
+  "momentum": "N/A",
+  "nesterov": "N/A",
+  "alpha": "N/A",
+  "beta1": 0.5,
+  "beta2": 0.999,
+  "d_first": true,
+  "g_updates_per_step": 1,
+  "d_updates_per_step": 2,
+  "total_steps": 200000,
+  "world_size": 1
+}
+[INFO] 2024-08-02 08:09:29 > cfgs.PRE =
+[INFO] 2024-08-02 08:09:29 > {
+  "apply_rflip": true,
+  "crop_long_edge": false,
+  "resize_size": null
+}
+[INFO] 2024-08-02 08:09:29 > cfgs.AUG =
+[INFO] 2024-08-02 08:09:29 > {
+  "apply_diffaug": false,
+  "apply_ada": false,
+  "ada_initial_augment_p": "N/A",
+  "ada_target": "N/A",
+  "ada_kimg": "N/A",
+  "ada_interval": "N/A",
+  "apply_apa": false,
+  "apa_initial_augment_p": "N/A",
+  "apa_target": "N/A",
+  "apa_kimg": "N/A",
+  "apa_interval": "N/A",
+  "cr_aug_type": "W/O",
+  "bcr_aug_type": "W/O",
+  "diffaug_type": "W/O",
+  "ada_aug_type": "W/O"
+}
+[INFO] 2024-08-02 08:09:29 > cfgs.RUN =
+[INFO] 2024-08-02 08:09:29 > {
+  "entity": null,
+  "project": null,
+  "cfg_file": "src/configs/CIFAR10/DCGAN.yaml",
+  "data_dir": "./data",
+  "save_dir": "outputs",
+  "ckpt_dir": null,
+  "load_best": false,
+  "seed": 3039,
+  "distributed_data_parallel": false,
+  "backend": "nccl",
+  "total_nodes": 1,
+  "current_node": 0,
+  "num_workers": 8,
+  "synchronized_bn": false,
+  "mixed_precision": true,
+  "truncation_factor": -1.0,
+  "truncation_cutoff": null,
+  "batch_statistics": false,
+  "standing_statistics": true,
+  "standing_max_batch": -1,
+  "standing_step": -1,
+  "freezeD": -1,
+  "langevin_sampling": false,
+  "langevin_rate": -1,
+  "langevin_noise_std": -1,
+  "langevin_decay": -1,
+  "langevin_decay_steps": -1,
+  "langevin_steps": -1,
+  "train": true,
+  "load_train_hdf5": true,
+  "load_data_in_memory": true,
+  "eval_metrics": [
+    "is",
+    "fid",
+    "prdc"
+  ],
+  "pre_resizer": "wo_resize",
+  "post_resizer": "friendly",
+  "num_eval": 1,
+  "save_real_images": false,
+  "save_fake_images": false,
+  "save_fake_images_num": 1,
+  "vis_fake_images": false,
+  "k_nearest_neighbor": false,
+  "interpolation": false,
+  "frequency_analysis": false,
+  "tsne_analysis": false,
+  "intra_class_fid": false,
+  "GAN_train": false,
+  "GAN_test": false,
+  "resume_classifier_train": false,
+  "semantic_factorization": false,
+  "num_semantic_axis": -1,
+  "maximum_variations": -1,
+  "empty_cache": false,
+  "print_freq": 100,
+  "save_freq": 2000,
+  "eval_backbone": "InceptionV3_tf",
+  "ref_dataset": "train",
+  "calc_is_ref_dataset": false,
+  "fix_seed": false
+}
+[INFO] 2024-08-02 08:09:29 > cfgs.STYLEGAN =
+[INFO] 2024-08-02 08:09:29 > {
+  "stylegan3_cfg": "N/A",
+  "cond_type": [
+    "PD",
+    "SPD",
+    "2C",
+    "D2DCE"
+  ],
+  "g_reg_interval": "N/A",
+  "d_reg_interval": "N/A",
+  "mapping_network": "N/A",
+  "style_mixing_p": "N/A",
+  "g_ema_kimg": "N/A",
+  "g_ema_rampup": "N/A",
+  "apply_pl_reg": false,
+  "pl_weight": "N/A",
+  "d_architecture": "N/A",
+  "d_epilogue_mbstd_group_size": "N/A",
+  "blur_init_sigma": "N/A"
+}
+[INFO] 2024-08-02 08:09:29 > Load CIFAR10 train dataset for training.
+[INFO] 2024-08-02 08:09:29 > Train dataset size: 50000
+[INFO] 2024-08-02 08:09:29 > Load CIFAR10 train dataset for evaluation.
+[INFO] 2024-08-02 08:09:30 > Eval dataset size: 50000
+[INFO] 2024-08-02 08:09:30 > Build a Generative Adversarial Network.
+[INFO] 2024-08-02 08:09:30 > Modules are located on './src/models.deep_conv'.
+[INFO] 2024-08-02 08:09:31 > Number of parameters: 3812355
+[INFO] 2024-08-02 08:09:31 > Generator(
+  (linear0): Linear(in_features=128, out_features=8192, bias=True)
+  (blocks): ModuleList(
+    (0): ModuleList(
+      (0): GenBlock(
+        (deconv0): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+        (bn0): BatchNorm2d(256, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (activation): ReLU(inplace=True)
+      )
+    )
+    (1): ModuleList(
+      (0): GenBlock(
+        (deconv0): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+        (bn0): BatchNorm2d(128, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (activation): ReLU(inplace=True)
+      )
+    )
+    (2): ModuleList(
+      (0): GenBlock(
+        (deconv0): ConvTranspose2d(128, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+        (bn0): BatchNorm2d(64, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (activation): ReLU(inplace=True)
+      )
+    )
+  )
+  (conv4): Conv2d(64, 3, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (tanh): Tanh()
+)
+[INFO] 2024-08-02 08:09:31 > Number of parameters: 2931009
+[INFO] 2024-08-02 08:09:31 > Discriminator(
+  (blocks): ModuleList(
+    (0): ModuleList(
+      (0): DiscBlock(
+        (conv0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv1): Conv2d(64, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+        (bn0): BatchNorm2d(64, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (bn1): BatchNorm2d(64, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (activation): ReLU(inplace=True)
+      )
+    )
+    (1): ModuleList(
+      (0): DiscBlock(
+        (conv0): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv1): Conv2d(128, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+        (bn0): BatchNorm2d(128, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (bn1): BatchNorm2d(128, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (activation): ReLU(inplace=True)
+      )
+    )
+    (2): ModuleList(
+      (0): DiscBlock(
+        (conv0): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv1): Conv2d(256, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+        (bn0): BatchNorm2d(256, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (bn1): BatchNorm2d(256, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+        (activation): ReLU(inplace=True)
+      )
+    )
+  )
+  (activation): ReLU(inplace=True)
+  (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (bn1): BatchNorm2d(512, eps=0.0001, momentum=0.1, affine=True, track_running_stats=True)
+  (linear1): Linear(in_features=512, out_features=1, bias=True)
+)
+[INFO] 2024-08-02 08:09:33 > Calculate moments of train dataset using InceptionV3_tf model.
+[INFO] 2024-08-02 08:10:46 > Save calculated means and covariances to disk.
+[INFO] 2024-08-02 08:10:46 > Calculate features of train dataset using InceptionV3_tf model.
+[INFO] 2024-08-02 08:11:53 > Save real_features to disk.
+[INFO] 2024-08-02 08:14:08 > Start training!
+[INFO] 2024-08-02 08:14:11 > Step:    100 Progress: 0.1% Elapsed: 0:00:03 Gen_loss: 12.52 Dis_loss: 0.001421 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:13 > Step:    200 Progress: 0.1% Elapsed: 0:00:05 Gen_loss: 9.604 Dis_loss: 0.0002625 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:16 > Step:    300 Progress: 0.1% Elapsed: 0:00:08 Gen_loss: 6.858 Dis_loss: 0.01127 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:18 > Step:    400 Progress: 0.2% Elapsed: 0:00:10 Gen_loss: 6.579 Dis_loss: 0.002748 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:20 > Step:    500 Progress: 0.2% Elapsed: 0:00:12 Gen_loss: 6.351 Dis_loss: 0.02346 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:23 > Step:    600 Progress: 0.3% Elapsed: 0:00:14 Gen_loss: 7.214 Dis_loss: 0.03057 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:25 > Step:    700 Progress: 0.4% Elapsed: 0:00:17 Gen_loss: 3.18 Dis_loss: 0.2355 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:27 > Step:    800 Progress: 0.4% Elapsed: 0:00:19 Gen_loss: 3.644 Dis_loss: 0.8978 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:29 > Step:    900 Progress: 0.4% Elapsed: 0:00:21 Gen_loss: 3.639 Dis_loss: 0.5428 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:32 > Step:   1000 Progress: 0.5% Elapsed: 0:00:24 Gen_loss: 0.6262 Dis_loss: 0.04654 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:34 > Step:   1100 Progress: 0.5% Elapsed: 0:00:26 Gen_loss: 5.992 Dis_loss: 0.4084 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:36 > Step:   1200 Progress: 0.6% Elapsed: 0:00:28 Gen_loss: 4.81 Dis_loss: 0.2066 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:39 > Step:   1300 Progress: 0.7% Elapsed: 0:00:30 Gen_loss: 6.833 Dis_loss: 0.1733 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:41 > Step:   1400 Progress: 0.7% Elapsed: 0:00:33 Gen_loss: 3.15 Dis_loss: 0.3433 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:43 > Step:   1500 Progress: 0.8% Elapsed: 0:00:35 Gen_loss: 3.631 Dis_loss: 0.08741 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:46 > Step:   1600 Progress: 0.8% Elapsed: 0:00:37 Gen_loss: 3.9 Dis_loss: 0.08617 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:48 > Step:   1700 Progress: 0.9% Elapsed: 0:00:40 Gen_loss: 1.742 Dis_loss: 0.1049 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:50 > Step:   1800 Progress: 0.9% Elapsed: 0:00:42 Gen_loss: 1.661 Dis_loss: 0.03176 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:52 > Step:   1900 Progress: 0.9% Elapsed: 0:00:44 Gen_loss: 4.71 Dis_loss: 0.2188 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:55 > Step:   2000 Progress: 1.0% Elapsed: 0:00:47 Gen_loss: 4.185 Dis_loss: 0.1678 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:14:55 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:14:55 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_2000.png
+[INFO] 2024-08-02 08:14:55 > Start Evaluation (2000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:14:55 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:16:03 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:16:03 > Inception score (Step: 2000, 50000 generated images): 4.321160316467285
+[INFO] 2024-08-02 08:16:05 > FID score (Step: 2000, Using train moments): 102.10419419220375
+[INFO] 2024-08-02 08:16:05 > Best FID score (Step: 2000, Using train moments): 102.10419419220375
+[INFO] 2024-08-02 08:18:16 > Improved Precision (Step: 2000, Using train images): 0.58806
+[INFO] 2024-08-02 08:18:16 > Improved Recall (Step: 2000, Using train images): 0.0129
+[INFO] 2024-08-02 08:18:16 > Density (Step: 2000, Using train images): 0.39278
+[INFO] 2024-08-02 08:18:16 > Coverage (Step: 2000, Using train images): 0.10072
+[INFO] 2024-08-02 08:18:16 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:18:18 > Step:   2100 Progress: 1.1% Elapsed: 0:04:10 Gen_loss: 2.512 Dis_loss: 1.804 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:20 > Step:   2200 Progress: 1.1% Elapsed: 0:04:12 Gen_loss: 4.728 Dis_loss: 0.04494 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:23 > Step:   2300 Progress: 1.1% Elapsed: 0:04:14 Gen_loss: 4.255 Dis_loss: 0.4906 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:25 > Step:   2400 Progress: 1.2% Elapsed: 0:04:17 Gen_loss: 7.706 Dis_loss: 0.07487 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:27 > Step:   2500 Progress: 1.2% Elapsed: 0:04:19 Gen_loss: 4.98 Dis_loss: 0.01744 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:29 > Step:   2600 Progress: 1.3% Elapsed: 0:04:21 Gen_loss: 8.332 Dis_loss: 0.06706 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:32 > Step:   2700 Progress: 1.4% Elapsed: 0:04:24 Gen_loss: 2.936 Dis_loss: 0.2199 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:34 > Step:   2800 Progress: 1.4% Elapsed: 0:04:26 Gen_loss: 6.363 Dis_loss: 0.008533 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:36 > Step:   2900 Progress: 1.5% Elapsed: 0:04:28 Gen_loss: 13.37 Dis_loss: 0.0486 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:39 > Step:   3000 Progress: 1.5% Elapsed: 0:04:31 Gen_loss: 6.165 Dis_loss: 0.0232 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:41 > Step:   3100 Progress: 1.6% Elapsed: 0:04:33 Gen_loss: 3.258 Dis_loss: 0.2204 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:43 > Step:   3200 Progress: 1.6% Elapsed: 0:04:35 Gen_loss: 7.35 Dis_loss: 0.005883 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:46 > Step:   3300 Progress: 1.7% Elapsed: 0:04:37 Gen_loss: 8.45 Dis_loss: 0.5723 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:48 > Step:   3400 Progress: 1.7% Elapsed: 0:04:40 Gen_loss: 5.465 Dis_loss: 0.802 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:50 > Step:   3500 Progress: 1.8% Elapsed: 0:04:42 Gen_loss: 3.84 Dis_loss: 0.01237 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:52 > Step:   3600 Progress: 1.8% Elapsed: 0:04:44 Gen_loss: 5.788 Dis_loss: 0.09288 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:55 > Step:   3700 Progress: 1.8% Elapsed: 0:04:47 Gen_loss: 8.417 Dis_loss: 0.04695 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:57 > Step:   3800 Progress: 1.9% Elapsed: 0:04:49 Gen_loss: 2.671 Dis_loss: 0.179 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:18:59 > Step:   3900 Progress: 1.9% Elapsed: 0:04:51 Gen_loss: 6.295 Dis_loss: 0.02615 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:19:02 > Step:   4000 Progress: 2.0% Elapsed: 0:04:53 Gen_loss: 2.946 Dis_loss: 0.04208 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:19:02 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:19:02 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_4000.png
+[INFO] 2024-08-02 08:19:02 > Start Evaluation (4000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:19:02 > generate images and stack features (50000 images).
+[INFO] 2024-08-02 08:20:10 > 50000 real images is used for evaluation.
+[INFO] 2024-08-02 08:20:10 > Inception score (Step: 4000, 50000 generated images): 5.643728733062744
+[INFO] 2024-08-02 08:20:12 > FID score (Step: 4000, Using train moments): 66.72761398770803
+[INFO] 2024-08-02 08:20:12 > Best FID score (Step: 4000, Using train moments): 66.72761398770803
+[INFO] 2024-08-02 08:22:24 > Improved Precision (Step: 4000, Using train images): 0.50318
+[INFO] 2024-08-02 08:22:24 > Improved Recall (Step: 4000, Using train images): 0.16214
+[INFO] 2024-08-02 08:22:24 > Density (Step: 4000, Using train images): 0.320376
+[INFO] 2024-08-02 08:22:24 > Coverage (Step: 4000, Using train images): 0.17432
+[INFO] 2024-08-02 08:22:24 > Save model to outputs/checkpoints/CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:22:27 > Step:   4100 Progress: 2.1% Elapsed: 0:08:19 Gen_loss: 6.638 Dis_loss: 0.006279 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:29 > Step:   4200 Progress: 2.1% Elapsed: 0:08:21 Gen_loss: 3.999 Dis_loss: 0.1719 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:31 > Step:   4300 Progress: 2.1% Elapsed: 0:08:23 Gen_loss: 4.359 Dis_loss: 0.04857 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:34 > Step:   4400 Progress: 2.2% Elapsed: 0:08:25 Gen_loss: 8.67 Dis_loss: 0.04903 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:36 > Step:   4500 Progress: 2.2% Elapsed: 0:08:28 Gen_loss: 5.4 Dis_loss: 0.09098 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:38 > Step:   4600 Progress: 2.3% Elapsed: 0:08:30 Gen_loss: 5.276 Dis_loss: 0.01893 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:40 > Step:   4700 Progress: 2.4% Elapsed: 0:08:32 Gen_loss: 3.909 Dis_loss: 0.06058 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:43 > Step:   4800 Progress: 2.4% Elapsed: 0:08:35 Gen_loss: 2.158 Dis_loss: 0.09378 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:45 > Step:   4900 Progress: 2.5% Elapsed: 0:08:37 Gen_loss: 4.624 Dis_loss: 0.1916 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:47 > Step:   5000 Progress: 2.5% Elapsed: 0:08:39 Gen_loss: 8.838 Dis_loss: 0.01639 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:50 > Step:   5100 Progress: 2.5% Elapsed: 0:08:41 Gen_loss: 5.981 Dis_loss: 0.01095 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:52 > Step:   5200 Progress: 2.6% Elapsed: 0:08:44 Gen_loss: 3.456 Dis_loss: 0.1118 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:54 > Step:   5300 Progress: 2.6% Elapsed: 0:08:46 Gen_loss: 3.032 Dis_loss: 0.01433 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:57 > Step:   5400 Progress: 2.7% Elapsed: 0:08:48 Gen_loss: 13.45 Dis_loss: 0.563 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:22:59 > Step:   5500 Progress: 2.8% Elapsed: 0:08:51 Gen_loss: 2.604 Dis_loss: 0.08432 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:23:01 > Step:   5600 Progress: 2.8% Elapsed: 0:08:53 Gen_loss: 2.549 Dis_loss: 0.3608 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:23:03 > Step:   5700 Progress: 2.9% Elapsed: 0:08:55 Gen_loss: 4.638 Dis_loss: 0.01904 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:23:06 > Step:   5800 Progress: 2.9% Elapsed: 0:08:58 Gen_loss: 7.881 Dis_loss: 0.04257 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:23:08 > Step:   5900 Progress: 2.9% Elapsed: 0:09:00 Gen_loss: 4.702 Dis_loss: 0.4072 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:23:10 > Step:   6000 Progress: 3.0% Elapsed: 0:09:02 Gen_loss: 0.3031 Dis_loss: 1.386 Cls_loss: N/A Topk:  N/A aa_p: N/A 
+[INFO] 2024-08-02 08:23:10 > Visualize (num_rows x 8) fake image canvans.
+[INFO] 2024-08-02 08:23:10 > Save image canvas to outputs/figures/CIFAR10-DCGAN-train-2024_08_02_08_09_21/generated_canvas_6000.png
+[INFO] 2024-08-02 08:23:10 > Start Evaluation (6000 Step): CIFAR10-DCGAN-train-2024_08_02_08_09_21
+[INFO] 2024-08-02 08:23:10 > generate images and stack features (50000 images).
